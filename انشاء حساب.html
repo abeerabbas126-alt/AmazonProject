@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="index.html"><br> Home </a>
+    <style>
+*{
+    padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+       } 
+        body{
+            margin: 0px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            gap: 40px;
+        }
+        .t{
+            font-size: 25px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 30px black;
+            background-color: coral;
+        }
+        input{
+            font-size: 20px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        label{
+            font-size: 20px;
+        }
+        input[type=submit]{
+            background-color: rgb(137, 132, 211);
+            border: 0.1px solid black;
+        }
+    input[type=submit]:hover{
+background-color: blue;
+cursor: pointer;
+transition-duration: .5s;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="t">
+       Create an account
+        </div>
+  <form action="">
+    <label for="email">first name </label>
+        <input type="text"placeholder="first name"requird value=""name="first name">
+         <label for="email">last name </label>
+        <input type="text"placeholder="last name"requird value=""name="last name">
+        <label for="email"> Email</label>
+        <input type="email"placeholder="email"requird value=""name="email">
+        <label for="email"> date</label>
+        <input type="date"placeholder="date"requird value=""name="date">
+        <label for="email"> mail</label>
+        <input type="radio"placeholder="gender" value=""name="gender">
+        <label for="email"> femail</label>
+        <input type="radio"placeholder="gender" value=""name="gender">
+        <label for="password">password</label>
+        <input type="password"placeholder="password" value=""name="password">
+        <input type="submit">
+        </form> 
+        </div>            
+</body>
+</html>
